@@ -1,0 +1,32 @@
+﻿Build started 7/6/2017 11:11:22 PM.
+     1>Project "C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\ALL_FEB21A\ALL_FEB21A.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost_1_62_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ALL_FEB21A.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ALL_FEB21A.cpp
+         ALL_FEB21A.cpp
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(193): warning C4129: 's' : unrecognized character escape sequence
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(186): warning C4101: 'cntr' : unreferenced local variable
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(259): warning C4101: 'rval' : unreferenced local variable
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(259): warning C4101: 'cntr' : unreferenced local variable
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(318): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(322): warning C4309: '=' : truncation of constant value
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(328): warning C4244: 'argument' : conversion from 'double' to 'const long', possible loss of data
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(788): warning C4101: 'rval' : unreferenced local variable
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(788): warning C4101: 'index' : unreferenced local variable
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(286): warning C4101: 'rval' : unreferenced local variable
+                 c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(250) : see reference to function template instantiation 'void display_arr<int>(const tz *)' being compiled
+                 with
+                 [
+                     tz=int
+                 ]
+     1>c:\users\madmax\documents\visual studio 2013\projects\vcplus\bits_pieces\all_feb21d\all_feb21a\all_feb21a.cpp(287): warning C4101: 'addr' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\Debug\ALL_FEB21A.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\boost_1_62_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\Debug\ALL_FEB21A.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\Debug\ALL_FEB21A.lib" /MACHINE:X86 Debug\ALL_FEB21A.obj
+         Debug\KUPAL.obj
+         Debug\OUNCIL.obj
+         Debug\stdafx.obj
+         ALL_FEB21A.vcxproj -> C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\Debug\ALL_FEB21A.exe
+     1>Done Building Project "C:\Users\madmax\Documents\Visual Studio 2013\Projects\VCPLUS\BITS_PIECES\ALL_FEB21D\ALL_FEB21A\ALL_FEB21A.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.04
